@@ -1,6 +1,6 @@
 {
   "name": "hubot-osaka",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Dongri Jin <dongriat@gmail.com>",
   "description": "Translate osakaben for Hubot",
   "repository": {

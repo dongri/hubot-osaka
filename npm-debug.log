@@ -1,0 +1,130 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/opt/boxen/nodenv/versions/v0.10.26/bin/node',
+1 verbose cli   '/opt/boxen/nodenv/versions/v0.10.26/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/dongri/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/vk/pf9sf9tx2h19sw566597tt540000gn/T/npm-13180-ZTfggMV6/1413045358765-0.47030840208753943/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/vk/pf9sf9tx2h19sw566597tt540000gn/T/npm-13180-ZTfggMV6/1413045358765-0.47030840208753943/tmp.tgz
+12 verbose folder .
+13 info prepublish hubot-osaka@0.0.1
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/dongri/.npm/1f1177db-tar.lock
+16 silly lockFile b0c74f80-8765-0-47030840208753943-tmp-tgz tar:///var/folders/vk/pf9sf9tx2h19sw566597tt540000gn/T/npm-13180-ZTfggMV6/1413045358765-0.47030840208753943/tmp.tgz
+17 verbose lock tar:///var/folders/vk/pf9sf9tx2h19sw566597tt540000gn/T/npm-13180-ZTfggMV6/1413045358765-0.47030840208753943/tmp.tgz /Users/dongri/.npm/b0c74f80-8765-0-47030840208753943-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile b0c74f80-8765-0-47030840208753943-tmp-tgz tar:///var/folders/vk/pf9sf9tx2h19sw566597tt540000gn/T/npm-13180-ZTfggMV6/1413045358765-0.47030840208753943/tmp.tgz
+21 silly lockFile b0c74f80-8765-0-47030840208753943-tmp-tgz tar:///var/folders/vk/pf9sf9tx2h19sw566597tt540000gn/T/npm-13180-ZTfggMV6/1413045358765-0.47030840208753943/tmp.tgz
+22 verbose tar unpack /var/folders/vk/pf9sf9tx2h19sw566597tt540000gn/T/npm-13180-ZTfggMV6/1413045358765-0.47030840208753943/tmp.tgz
+23 silly lockFile 15ff79c4-8765-0-47030840208753943-package tar:///var/folders/vk/pf9sf9tx2h19sw566597tt540000gn/T/npm-13180-ZTfggMV6/1413045358765-0.47030840208753943/package
+24 verbose lock tar:///var/folders/vk/pf9sf9tx2h19sw566597tt540000gn/T/npm-13180-ZTfggMV6/1413045358765-0.47030840208753943/package /Users/dongri/.npm/15ff79c4-8765-0-47030840208753943-package.lock
+25 silly lockFile b0c74f80-8765-0-47030840208753943-tmp-tgz tar:///var/folders/vk/pf9sf9tx2h19sw566597tt540000gn/T/npm-13180-ZTfggMV6/1413045358765-0.47030840208753943/tmp.tgz
+26 verbose lock tar:///var/folders/vk/pf9sf9tx2h19sw566597tt540000gn/T/npm-13180-ZTfggMV6/1413045358765-0.47030840208753943/tmp.tgz /Users/dongri/.npm/b0c74f80-8765-0-47030840208753943-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry README.md
+30 silly gunzTarPerm extractEntry index.coffee
+31 silly gunzTarPerm extractEntry scripts/osaka.coffee
+32 silly lockFile 15ff79c4-8765-0-47030840208753943-package tar:///var/folders/vk/pf9sf9tx2h19sw566597tt540000gn/T/npm-13180-ZTfggMV6/1413045358765-0.47030840208753943/package
+33 silly lockFile 15ff79c4-8765-0-47030840208753943-package tar:///var/folders/vk/pf9sf9tx2h19sw566597tt540000gn/T/npm-13180-ZTfggMV6/1413045358765-0.47030840208753943/package
+34 silly lockFile b0c74f80-8765-0-47030840208753943-tmp-tgz tar:///var/folders/vk/pf9sf9tx2h19sw566597tt540000gn/T/npm-13180-ZTfggMV6/1413045358765-0.47030840208753943/tmp.tgz
+35 silly lockFile b0c74f80-8765-0-47030840208753943-tmp-tgz tar:///var/folders/vk/pf9sf9tx2h19sw566597tt540000gn/T/npm-13180-ZTfggMV6/1413045358765-0.47030840208753943/tmp.tgz
+36 verbose tar pack [ '/Users/dongri/.npm/hubot-osaka/0.0.1/package.tgz',
+36 verbose tar pack   '/var/folders/vk/pf9sf9tx2h19sw566597tt540000gn/T/npm-13180-ZTfggMV6/1413045358765-0.47030840208753943/package' ]
+37 verbose tarball /Users/dongri/.npm/hubot-osaka/0.0.1/package.tgz
+38 verbose folder /var/folders/vk/pf9sf9tx2h19sw566597tt540000gn/T/npm-13180-ZTfggMV6/1413045358765-0.47030840208753943/package
+39 silly lockFile 15ff79c4-8765-0-47030840208753943-package tar:///var/folders/vk/pf9sf9tx2h19sw566597tt540000gn/T/npm-13180-ZTfggMV6/1413045358765-0.47030840208753943/package
+40 verbose lock tar:///var/folders/vk/pf9sf9tx2h19sw566597tt540000gn/T/npm-13180-ZTfggMV6/1413045358765-0.47030840208753943/package /Users/dongri/.npm/15ff79c4-8765-0-47030840208753943-package.lock
+41 silly lockFile 78aa9589-pm-hubot-osaka-0-0-1-package-tgz tar:///Users/dongri/.npm/hubot-osaka/0.0.1/package.tgz
+42 verbose lock tar:///Users/dongri/.npm/hubot-osaka/0.0.1/package.tgz /Users/dongri/.npm/78aa9589-pm-hubot-osaka-0-0-1-package-tgz.lock
+43 silly lockFile 15ff79c4-8765-0-47030840208753943-package tar:///var/folders/vk/pf9sf9tx2h19sw566597tt540000gn/T/npm-13180-ZTfggMV6/1413045358765-0.47030840208753943/package
+44 silly lockFile 15ff79c4-8765-0-47030840208753943-package tar:///var/folders/vk/pf9sf9tx2h19sw566597tt540000gn/T/npm-13180-ZTfggMV6/1413045358765-0.47030840208753943/package
+45 silly lockFile 78aa9589-pm-hubot-osaka-0-0-1-package-tgz tar:///Users/dongri/.npm/hubot-osaka/0.0.1/package.tgz
+46 silly lockFile 78aa9589-pm-hubot-osaka-0-0-1-package-tgz tar:///Users/dongri/.npm/hubot-osaka/0.0.1/package.tgz
+47 silly lockFile bc5f06c4-ri-npm-hubot-osaka-0-0-1-package /Users/dongri/.npm/hubot-osaka/0.0.1/package
+48 verbose lock /Users/dongri/.npm/hubot-osaka/0.0.1/package /Users/dongri/.npm/bc5f06c4-ri-npm-hubot-osaka-0-0-1-package.lock
+49 silly lockFile bc5f06c4-ri-npm-hubot-osaka-0-0-1-package /Users/dongri/.npm/hubot-osaka/0.0.1/package
+50 silly lockFile bc5f06c4-ri-npm-hubot-osaka-0-0-1-package /Users/dongri/.npm/hubot-osaka/0.0.1/package
+51 verbose tar unpack /Users/dongri/.npm/hubot-osaka/0.0.1/package.tgz
+52 silly lockFile c4653ccf-ri-npm-hubot-osaka-0-0-1-package tar:///Users/dongri/.npm/hubot-osaka/0.0.1/package
+53 verbose lock tar:///Users/dongri/.npm/hubot-osaka/0.0.1/package /Users/dongri/.npm/c4653ccf-ri-npm-hubot-osaka-0-0-1-package.lock
+54 silly lockFile 78aa9589-pm-hubot-osaka-0-0-1-package-tgz tar:///Users/dongri/.npm/hubot-osaka/0.0.1/package.tgz
+55 verbose lock tar:///Users/dongri/.npm/hubot-osaka/0.0.1/package.tgz /Users/dongri/.npm/78aa9589-pm-hubot-osaka-0-0-1-package-tgz.lock
+56 silly gunzTarPerm modes [ '755', '644' ]
+57 silly gunzTarPerm extractEntry package.json
+58 silly gunzTarPerm extractEntry README.md
+59 silly gunzTarPerm extractEntry index.coffee
+60 silly gunzTarPerm extractEntry scripts/osaka.coffee
+61 silly lockFile c4653ccf-ri-npm-hubot-osaka-0-0-1-package tar:///Users/dongri/.npm/hubot-osaka/0.0.1/package
+62 silly lockFile c4653ccf-ri-npm-hubot-osaka-0-0-1-package tar:///Users/dongri/.npm/hubot-osaka/0.0.1/package
+63 silly lockFile 78aa9589-pm-hubot-osaka-0-0-1-package-tgz tar:///Users/dongri/.npm/hubot-osaka/0.0.1/package.tgz
+64 silly lockFile 78aa9589-pm-hubot-osaka-0-0-1-package-tgz tar:///Users/dongri/.npm/hubot-osaka/0.0.1/package.tgz
+65 verbose chmod /Users/dongri/.npm/hubot-osaka/0.0.1/package.tgz 644
+66 verbose chown /Users/dongri/.npm/hubot-osaka/0.0.1/package.tgz [ 501, 20 ]
+67 silly lockFile 3a52ce78- .
+68 silly lockFile 3a52ce78- .
+69 silly publish { name: 'hubot-osaka',
+69 silly publish   version: '0.0.1',
+69 silly publish   author: { name: 'Dongri Jin', email: 'dongriat@gmail.com' },
+69 silly publish   description: 'Translate osakaben for Hubot',
+69 silly publish   repository:
+69 silly publish    { type: 'git',
+69 silly publish      url: 'https://github.com/dongri/hubot-osaka.git' },
+69 silly publish   keywords: [ 'hubot', 'osaka', 'osakaben', '大阪弁' ],
+69 silly publish   dependencies: {},
+69 silly publish   license: 'MIT',
+69 silly publish   main: 'src/hubot-osaka',
+69 silly publish   readme: '```\n$ npm install hubot-osaka\n$ echo \'["hubot-osaka"]\' >> external-scripts.json\n```',
+69 silly publish   readmeFilename: 'README.md',
+69 silly publish   bugs: { url: 'https://github.com/dongri/hubot-osaka/issues' },
+69 silly publish   homepage: 'https://github.com/dongri/hubot-osaka',
+69 silly publish   _id: 'hubot-osaka@0.0.1',
+69 silly publish   dist: { shasum: 'a4f4ab0ba33f7f99b37b07ad14593ed5e59a8183' },
+69 silly publish   _from: '.' }
+70 verbose url raw hubot-osaka
+71 verbose url resolving [ 'http://registry.npmjs.org/', './hubot-osaka' ]
+72 verbose url resolved http://registry.npmjs.org/hubot-osaka
+73 info trying registry request attempt 1 at 01:35:58
+74 http PUT http://registry.npmjs.org/hubot-osaka
+75 http 403 http://registry.npmjs.org/hubot-osaka
+76 error publish Failed PUT 403
+77 error Error: forbidden cannot modify pre-existing version: 0.0.1
+77 error old={"name":"hubot-osaka","version":"0.0.1","author":{"name":"Dongri Jin","email":"dongriat@gmail.com"},"description":"Translage osakaben for Hubot","repository":{"type":"git","url":"https://github.com/dongri/hubot-osaka.git"},"keywords":["hubot","osaka","osakaben","大阪弁"],"dependencies":{},"license":"MIT","main":"src/hubot-osaka","bugs":{"url":"https://github.com/dongri/hubot-osaka/issues"},"homepage":"https://github.com/dongri/hubot-osaka","_id":"hubot-osaka@0.0.1","dist":{"shasum":"e77c333da67bf7ef4781e7709bd60e9f93c840d0","tarball":"http://registry.npmjs.org/hubot-osaka/-/hubot-osaka-0.0.1.tgz"},"_from":".","_npmVersion":"1.4.3","_npmUser":{"name":"dongri","email":"dongriat@gmail.com"},"maintainers":[{"name":"dongri","email":"dongriat@gmail.com"}]}
+77 error new={"name":"hubot-osaka","version":"0.0.1","author":{"name":"Dongri Jin","email":"dongriat@gmail.com"},"description":"Translate osakaben for Hubot","repository":{"type":"git","url":"https://github.com/dongri/hubot-osaka.git"},"keywords":["hubot","osaka","osakaben","大阪弁"],"dependencies":{},"license":"MIT","main":"src/hubot-osaka","readme":"```\u000a$ npm install hubot-osaka\u000a$ echo '[\"hubot-osaka\"]' >> external-scripts.json\u000a```","readmeFilename":"README.md","bugs":{"url":"https://github.com/dongri/hubot-osaka/issues"},"homepage":"https://github.com/dongri/hubot-osaka","_id":"hubot-osaka@0.0.1","dist":{"shasum":"a4f4ab0ba33f7f99b37b07ad14593ed5e59a8183","tarball":"http://registry.npmjs.org/hubot-osaka/-/hubot-osaka-0.0.1.tgz"},"_from":".","_npmVersion":"1.4.3","_npmUser":{"name":"dongri","email":"dongriat@gmail.com"},"maintainers":[{"name":"dongri","email":"dongriat@gmail.com"}]}: hubot-osaka
+77 error     at RegClient.<anonymous> (/opt/boxen/nodenv/versions/v0.10.26/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:14)
+77 error     at Request.self.callback (/opt/boxen/nodenv/versions/v0.10.26/lib/node_modules/npm/node_modules/request/request.js:123:22)
+77 error     at Request.EventEmitter.emit (events.js:98:17)
+77 error     at Request.<anonymous> (/opt/boxen/nodenv/versions/v0.10.26/lib/node_modules/npm/node_modules/request/request.js:893:14)
+77 error     at Request.EventEmitter.emit (events.js:117:20)
+77 error     at IncomingMessage.<anonymous> (/opt/boxen/nodenv/versions/v0.10.26/lib/node_modules/npm/node_modules/request/request.js:844:12)
+77 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+77 error     at _stream_readable.js:920:16
+77 error     at process._tickCallback (node.js:415:13)
+78 error If you need help, you may report this *entire* log,
+78 error including the npm and node versions, at:
+78 error     <http://github.com/npm/npm/issues>
+79 error System Darwin 13.4.0
+80 error command "/opt/boxen/nodenv/versions/v0.10.26/bin/node" "/opt/boxen/nodenv/versions/v0.10.26/bin/npm" "publish"
+81 error cwd /Users/dongri/Dropbox (Personal)/Developers/github/dongri/hubot-osaka
+82 error node -v v0.10.26
+83 error npm -v 1.4.3
+84 verbose exit [ 1, true ]
