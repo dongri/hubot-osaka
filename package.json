@@ -1,0 +1,20 @@
+{
+  "name": "hubot-osaka",
+  "version": "0.0.1",
+  "author": "Dongri Jin <dongriat@gmail.com>",
+  "description": "Translage osakaben for Hubot",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dongri/hubot-osaka.git"
+  },
+  "keywords": [
+    "hubot",
+    "osaka",
+    "osakaben",
+    "大阪弁"
+  ],
+  "dependencies" : {
+  },
+  "license": "MIT",
+  "main": "src/hubot-osaka"
+}
