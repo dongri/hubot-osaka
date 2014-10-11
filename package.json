@@ -2,7 +2,7 @@
   "name": "hubot-osaka",
   "version": "0.0.1",
   "author": "Dongri Jin <dongriat@gmail.com>",
-  "description": "Translage osakaben for Hubot",
+  "description": "Translate osakaben for Hubot",
   "repository": {
     "type": "git",
     "url": "https://github.com/dongri/hubot-osaka.git"
